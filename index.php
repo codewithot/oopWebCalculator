@@ -1,6 +1,6 @@
 <?php
-    declare(strict_types = 1);
-    include 'includes/autoload.php';
+//    declare(strict_types = 1);
+//    include 'includes/autoload.php';
 ?>
 
 <!DOCTYPE html>
@@ -26,3 +26,26 @@
 
 </body>
 </html>
+
+<!---->
+<?php
+
+//$datatoencrpty = 'B@dS1nc#Ipp7Bx*';
+//
+//
+//
+//// $output = false;
+//
+//$encrypt_method = "AES-256-CBC";
+//$secret_key = 'trustvasSec';
+//$secret_iv = 'trustvasSecIV';
+//
+//// // hash
+//$key = hash('sha256', $secret_key);
+//
+//// iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
+//$iv = substr(hash('sha256', $secret_iv), 0, 16);
+//$output = openssl_encrypt($datatoencrpty, $encrypt_method, $key, 0, $iv);
+//$output = base64_encode($output);
+//
+//var_dump($output);

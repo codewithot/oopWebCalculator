@@ -1,5 +1,5 @@
 <?php
-class Calc {
+class CalcClass {
     public $operator;
     public $num1;
     public $num2;
